@@ -1,0 +1,2 @@
+#!/bin/sh
+ng build ng-element-example --prod --output-hashing=none && cat dist/ng-element-example/runtime-es5.js dist/ng-element-example/polyfills-es5.js dist/ng-element-example/scripts.js dist/ng-element-example/main-es5.js > preview/angularapp.js
