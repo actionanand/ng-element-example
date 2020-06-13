@@ -1,0 +1,30 @@
+button {
+    background: forestgreen;
+    border: none;
+    border-bottom: .4rem solid darkgreen;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    border-top: 1rem;
+    padding: .8rem;
+}
+
+button:hover {
+    background: #39ff14;
+    border-bottom: .4rem solid forestgreen;
+    color: darkmagenta;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+h2 {
+    margin: 0rem;
+}

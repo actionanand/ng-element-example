@@ -7,7 +7,7 @@ import { Component, OnInit, ViewEncapsulation, Input, Output, EventEmitter } fro
   encapsulation: ViewEncapsulation.ShadowDom
 })
 export class GreetComponent implements OnInit {
-  @Input() title: string = 'Angular Elements Example';
+  @Input() title: string = 'Ng Elements Example';
   @Input() name: string = 'Anand Raja';
   @Input() occupation: string = 'Software Engineer';
   @Input() location: string = 'Kanyakumari';
