@@ -3,10 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ng App</title>
+    <script src="./angularapp.js" async></script>
+    <title>Angular Elements Example</title>
 </head>
 <body>
-    <app-greet></app-greet>
-    <script src="./angularapp.js"></script>
+    <app-greet 
+    title="Angular Elements Example"
+    name="Rajesh"
+    occupation="Test Engineer"
+    location="Bangalore"
+    quote="I love Programming."
+    ></app-greet>
+    
+    <script>
+        const component = document.querySelector('app-greet');
+        component.addEventListener('display', (event) => { alert(event.detail) });
+    </script>
 </body>
 </html>
